@@ -1,0 +1,24 @@
+.first-page
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    
+    padding: 6em;
+}
+.first-box img{
+    height: 340px;
+    width: 449px;
+    
+    /* border: 2px solid red; */
+}
+.first-box2{
+    margin-top: 10px;    
+}
+.second-page
+{
+    padding-top: 8em;
+    justify-content: space-between;
+    
+}
+
+
