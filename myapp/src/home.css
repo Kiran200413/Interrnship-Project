@@ -1,24 +1,25 @@
-.first-page
-{
-    /* border: 2px solid black; */
-    width: 100%;
+.first-page{
+    margin-top: 11%;
     
-    padding: 6em;
 }
-.first-box img{
-    height: 340px;
-    width: 449px;
-    
-    /* border: 2px solid red; */
+.second-page{
+    margin-top: 7%;
 }
-.first-box2{
-    margin-top: 10px;    
-}
-.second-page
-{
-    padding-top: 8em;
+.second-box{
     justify-content: space-between;
+    border: 2px solid #bcdcf8;
+    margin: 1em;
     
 }
-
-
+.third-page{
+    margin-top: 10%;
+}
+.fourth-page{
+   margin-top: 5%;
+   margin-bottom: 10%;
+}
+.fourth-box{
+    
+    
+   
+}

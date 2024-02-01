@@ -8,6 +8,11 @@ import Navbar1 from './Navbar1'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Engineering from './Engineering'
 import Agriculture from './Agriculture'
+import ComputerScience from './ComputerScience'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Frontend from './Frontend'
+
 
 
 const App = () => {
@@ -15,6 +20,7 @@ const App = () => {
     <>
     <BrowserRouter>
       <Navbar1/>
+      
       <Routes>
         <Route path='/home' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
@@ -22,8 +28,11 @@ const App = () => {
         <Route path='/medical' element={<Medical/>}/>
         <Route path='/agriculture' element={<Agriculture/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/cs-it' element={<ComputerScience/>}/>
+        <Route path='/frontend' element={<Frontend/>}/>
+
       </Routes>
-      
+      <Footer/>
     </BrowserRouter>
     </>
   )

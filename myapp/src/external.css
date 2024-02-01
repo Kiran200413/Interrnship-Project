@@ -1,81 +1,66 @@
-/* register page */
-.register{
-    background-image: url(./Assets/bg.jpg);
-    background-size: 100%;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 130px;
-}
-
-.form{
-    padding: 5px;
-    width: 30%;
-    margin-top: 2%;
-    border: 5px solid white;
-    border-radius: 10%;
-    margin:0px 0px 0px 35%;
-    backdrop-filter: blur(100px);
-    
-}
-
-.formlabel{
-    font-size: 20px;
-    color:white;
-}
-.register h1{
-   color: aliceblue;
-}
-
-/* login */
-.login{
-    background-image: url(./Assets/bg.jpg);
-    background-size: 100%;
-    text-align: center;
-    justify-content: center;
-    padding: 98px 0px;
-
-}
-
-.login .form{
-    padding: 5px;
-    width: 25%;
-    margin-top: 2%;
-    border: 5px solid white;
-    border-radius: 10%;
-    margin:0px 0px 0px 38%;
-    backdrop-filter: blur(100px);
-}
-
-.login h1{
-    color: aliceblue;
- }
 
  /* footer */
 
- .footer{
+ .footer2{
     background-color: #104cba;
     color: white;
  }
 
- .container{
+ .container2{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 0;
+    
 
  }
 
- .about,
- .contact {
+ .about2,
+ .contact2 {
    display: inline-block;
    
    width: 45%;
+   
  }
 
- .copyright{
-    margin: 0;
+ .copyright2{
+    /* margin: 0; */
     text-align: center;
+    height: 48px;
  }
- a{
+ .copyright2 a{
     text-decoration: none;
     color: white;
  }
+ .contact2 a{
+    /* text-decoration: none; */
+    color: white;
+ }
+
+/* about us */
+
+.head1{
+    
+    height: 200px;
+    background-color: rgb(115 178 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    
+} 
+
+.card1{
+    padding-top: 10px;
+
+}
+.card1 .title1{
+    color: red;
+}
+
+.cbody1{
+    text-align: left;
+}
+.about-img{
+    border: 2px solid #96b9e4;
+    border-radius: 50px;
+}

@@ -30,32 +30,29 @@ const Navbar1 = () => {
     setregisterModal(false)
   }
   return (
-    <div>
-      <Navbar bg="primary" data-bs-theme="light">
-        <Container>
-          <Navbar.Brand href="" style={{ color: "white" }}>EduTech</Navbar.Brand>
+    <div >
+      <Navbar expand="lg" className="body-tertiary" bg='primary'>
+      <Container>
+        {/* <Navbar.Brand href="#home">EduTech</Navbar.Brand> */}
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/about">About Us</Nav.Link>
-
-            {/* //dropdown */}
-            <NavDropdown title="Courses" id="basic-nav-dropdown">
+            <NavDropdown title="Course" id="basic-nav-dropdown">
               <NavDropdown.Item href="/engineering">Engineering</NavDropdown.Item>
               <NavDropdown.Item href="/medical">Medical</NavDropdown.Item>
               <NavDropdown.Item href="/agriculture">Agriculture</NavDropdown.Item>
             </NavDropdown>
-
             <Nav.Link href="/contact">Contact Us</Nav.Link>
-
-            {/* //search Bar */}
-
-            <Form inline>
+            {/* search bar */}
+            <Form inline style={{paddingLeft:"5em"}}>
               <Row>
-                <Col xs="auto">
+                <Col xs="auto" >
                   <Form.Control
                     type="text"
                     placeholder="Search"
-                    className=" mr-sm-2"
+                    className=" mr-xs-2"
                   />
                 </Col>
                 <Col xs="auto">
@@ -64,15 +61,16 @@ const Navbar1 = () => {
               </Row>
             </Form>
             {/* //login & register */}
-            <div className='d-flex alignItems-right' style={{ paddingLeft: "12em" }} >
+            <div className='d-flex alignItems-right' style={{paddingLeft:"5em"}} >
               <Col xs="auto">
                 <Button type="submit" style={{ backgroundColor: "#5f6272" }} onClick={openLoginModal}>Login</Button>
               </Col>
-              <Button variant="link" style={{ color: "white" }} onClick={openRegisterModal}>Create Account</Button>
+              <Button variant="link" style={{ color: "white" }} onClick={openRegisterModal}>Sign Up</Button>
             </div>
           </Nav>
-        </Container>
-      </Navbar>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
 
 
       {/* login model */}
