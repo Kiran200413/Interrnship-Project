@@ -10,7 +10,8 @@ import './contact.css'
 const Contact = () => {
   return (
     <>
-      <div className="head">
+    <br/><br/>
+      <div style={{textAlign:"center"}}>
         <h1>
           <b>Contact Us</b>
         </h1>

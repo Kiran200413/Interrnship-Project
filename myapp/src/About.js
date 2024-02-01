@@ -7,17 +7,18 @@ import CardTitle from 'react-bootstrap/esm/CardTitle';
 const About = () => {
     return (
         <div className='about1'>
-
-            <div className='head1'>
+                <br/><br/>
+            <div style={{textAlign:"center"}}>
                 <h1><b>About Us</b></h1>
             </div>
+            <br/><br/>
             <div className="container text-center">
                 <div className="row">
                     <div className="col about-img">
                         <img src="https://www.schoolsoftware.com.ng/wp-content/uploads/2022/06/Vector01.png" alt="" width="100%" />
                     </div>
                     <div className="col content1">
-                        <h4>About Us</h4>
+                        
                         <p>At our platform, we revolutionize education by offering free courses featuring integrated YouTube playlists and thorough notes. Our mission is to replicate the exact environment of paid courses, providing a premium learning experience. We curate educational content from across the internet, ensuring access to high-quality resources. Empower your learning journey with our comprehensive platform that bridges the gap between affordability and excellence in education.!</p>
                     </div>
 

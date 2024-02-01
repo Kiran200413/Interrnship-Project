@@ -12,10 +12,12 @@ import ComputerScience from './ComputerScience'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Frontend from './Frontend'
-
+import Profile from './Profile'
 
 
 const App = () => {
+
+  
   return (
     <>
     <BrowserRouter>
@@ -30,9 +32,9 @@ const App = () => {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/cs-it' element={<ComputerScience/>}/>
         <Route path='/frontend' element={<Frontend/>}/>
-
+        <Route path='/profile' element={<Profile/>}/>
       </Routes>
-      <Footer/>
+      {window.location.pathname !== '/frontend' && <Footer />}
     </BrowserRouter>
     </>
   )

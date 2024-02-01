@@ -17,7 +17,7 @@ const Home = () => {
           <div className='col first-box2'>
             <h3>"Empower your career journey with our platform, crafting guided paths through curated <span style={{color:"orange"}}>YouTube playlists, top-notch videos, and notes </span>sourced from premier platforms."</h3>
             <p>Welcome to our platform, where learning is seamless and stress-free. Enjoy free education with YouTube courses and delve into our notes section, incorporating articles and valuable information. Experience the convenience of an integrated coding environment, eliminating the need for application installations. Unlock the door to effortless and comprehensive learning on our innovative platform.</p>
-            <Button variant="primary" >Explore Us</Button>
+            <Button variant="primary" href='/engineering' >Explore Us</Button>
           </div>
         </div>
       </section>
@@ -95,7 +95,7 @@ const Home = () => {
                 <Carousel.Caption>
                   <h5>Rohit Nagargoje</h5>
                   <p>
-                    &#11088;&#11088;&#11088;&#11088;<br />Chutiya website
+                    &#11088;&#11088;&#11088;&#11088;<br />Nice website
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -119,9 +119,9 @@ const Home = () => {
                   style={{ borderRadius: "30px" }}
                 />
                 <Carousel.Caption>
-                  <h3><a href='#'>heading</a></h3>
+                  <h3><a href='#'> Towards Data Science (Developers/Business)</a></h3>
                   <p>
-                   add initial lines of blog......
+                  Towards Data Science is a Medium publication that helps specialists exchange ideas and......
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -190,9 +190,9 @@ const Home = () => {
                   style={{ borderRadius: "30px" }}
                 />
                 <Carousel.Caption>
-                  <h5>Rohit Nagargoje</h5>
+                <h3><a href='#'>heading</a></h3>
                   <p>
-                    &#11088;&#11088;&#11088;&#11088;<br />Chutiya website
+                   add initial lines of blog......
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
